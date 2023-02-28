@@ -5,4 +5,4 @@ from selenium import webdriver
 class AnimaisTestCase(LiveServerTestCase):
     
     def setUp(self):
-        pass
+        self.browser = webdriver.Edge('C:\Users\Erick\Documents\ALURA-TDD\msedgedriver.exe')
